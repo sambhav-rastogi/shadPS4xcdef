@@ -635,7 +635,7 @@ std::span<const SurfaceFormatInfo> SurfaceFormats() {
         // 8_24
         // 24_8
         CreateSurfaceFormatInfo(AmdGpu::DataFormat::Format24_8, AmdGpu::NumberFormat::Float,
-                                vk::Format::eD24UnormS8Uint),
+                                vk::Format::eX8D24UnormPack32),
         // X24_8_32
         // GB_GR
         // BG_RG
